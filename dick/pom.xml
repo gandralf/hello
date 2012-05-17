@@ -2,18 +2,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.gonow</groupId>
-    <artifactId>hello</artifactId>
+    <artifactId>hello-dick</artifactId>
     <version>0.2-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-    <name>Hello</name>
+    <name>Hello, Dick</name>
     <description>Just a test</description>
-    
-    <modules>
-        <module>jane</module>
-        <module>dick</module>
-    </modules>
-    
+
+    <parent>
+        <groupId>br.com.gonow</groupId>
+        <artifactId>hello</artifactId>
+        <version>0.2-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.com.gonow</groupId>
+            <artifactId>hello-jane</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <!--
     <scm>
         <url>http://github.com/gandralf/hello</url>
         <connection>scm:git://github.com/gandralf/hello.git</connection>
@@ -30,4 +40,5 @@
             <url>http://repo.gonowtech.cl/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
+    -->
 </project>
