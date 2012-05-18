@@ -22,23 +22,4 @@
             <version>0.5-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <!--
-    <scm>
-        <url>http://github.com/gandralf/hello</url>
-        <connection>scm:git://github.com/gandralf/hello.git</connection>
-        <developerConnection>scm:git:git@github.com:gandralf/hello.git</developerConnection>
-    </scm>
-    
-    <distributionManagement>
-        <repository>
-            <id>gonow-cl-releases</id>
-            <url>http://repo.gonowtech.cl/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>gonow-cl-releases</id>
-            <url>http://repo.gonowtech.cl/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-    -->
 </project>
