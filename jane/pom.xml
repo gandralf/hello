@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.gonow</groupId>
     <artifactId>hello-jane</artifactId>
-    <version>0.5-SNAPSHOT</version>
+    <version>0.5</version>
     <packaging>jar</packaging>
 
     <name>Hello, Jane</name>
@@ -12,6 +12,6 @@
     <parent>
         <groupId>br.com.gonow</groupId>
         <artifactId>hello</artifactId>
-        <version>0.5-SNAPSHOT</version>
+        <version>0.5</version>
     </parent>
 </project>
